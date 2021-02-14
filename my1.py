@@ -21,10 +21,6 @@ def send_welcome(message):
 @bot.message_handler(func=lambda m: True)
 def echo_all(message):
     if message.text == 'Привет':
-        #bot.reply_to(message, 'Приветики :)')
-        #elif message.text == 'привет':
-        #bot.reply_to(message, 'Приветик :)')
-        #elif message.text == '/reg':
         bot.send_message(message.from_user.id, "Привет! Давай познакомимся! Как тебя зовут? :)")
         bot.register_next_step_handler(message, reg_name)
     # bot.reply_to(message, message.text)
