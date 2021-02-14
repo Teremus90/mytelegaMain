@@ -3,6 +3,7 @@ import telebot
 from telebot import types
 
 # 1667430363:AAE3xah4t2Y_sg4ydYb5XCDyqcqZACTysrI
+# GIT https://www.youtube.com/watch?v=9VKKZNqzPcE
 
 name = ''
 surname = ''
